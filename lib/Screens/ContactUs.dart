@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class ContactUs extends StatelessWidget {
@@ -11,12 +10,6 @@ class ContactUs extends StatelessWidget {
           // The containers in the background
           new Column(
             children: <Widget>[
-              new Container(
-                height: MediaQuery.of(context).size.height * .58,
-                width: MediaQuery.of(context).size.width,
-                color: Colors.blue,
-                child: Text("For Map"),
-              ),
               new Container(
                 height: MediaQuery.of(context).size.height * .40,
                 color: Colors.white,
@@ -445,13 +438,6 @@ class ContactUs extends StatelessWidget {
           )
         ],
       ),
-    );
-  }
-
-  textStyling() {
-    TextStyle(
-      color: Colors.grey,
-      fontSize: 12,
     );
   }
 }
