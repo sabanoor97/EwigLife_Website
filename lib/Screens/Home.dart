@@ -1,8 +1,5 @@
-import 'dart:html';
-
 import 'package:ewiglife/utils/Constants.dart';
 import 'package:flutter/material.dart';
-import 'package:video_player/video_player.dart';
 
 class Home extends StatefulWidget {
   @override
